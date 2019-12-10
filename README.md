@@ -11,7 +11,7 @@ You can easily cache pages by adding the `cache.html` middleware to the route.
 
 ### Setup your `.htaccess`
 
-```
+```apacheconf
 # Rewrite to html cache if it exists and the request is of a static page
 # (only for get requests without url query params)
 RewriteCond %{REQUEST_METHOD} GET
